@@ -1,56 +1,118 @@
 
-/*essa parte esconde os botoes do topo*/
-@media screen and (max-width: 878px){
-    header .menu-desktop, header .btn-contato{
-        display: none;
+    /*essa parte esconde os botoes do topo*/
+    @media screen and (max-width: 878px){
+        header .menu-desktop, header .btn-contato{
+            display: none;
+        }
     }
-}
 
-@media screen and (max-width: 800px){
-    /*responsivo da hero*/
-    .hero-site .txt-hero h1 {
-        font-size: 2em;
-        line-height: 45px; /*as letras não fica tão espaçosa*/
+    @media screen and (max-width: 800px){
+        /*responsivo da hero*/
+        .hero-site .txt-hero h1 {
+            font-size: 2em;
+            line-height: 45px; /*as letras não fica tão espaçosa*/
+            
+        }
+           
+        .hero-site .txt-hero p{
+            font-size: 14px;
+            
+        }
         
-    }
-    
+        .hero-site .txt-hero p span{
+            display: inline;
+        }
         
-    .hero-site .txt-hero p{
-        font-size: 14px;
-        
+        .hero-site button{
+            font-size: 18px;
+            
     }
-    
-    .hero-site .txt-hero p span{
-        display: inline;
-    }
-    
-    .hero-site button{
-        font-size: 18px;
-        
-}
-/*Responsivos das vantagens*/
-.vantagens .itens-container{
-flex-direction: column;
-}
+    /*Responsivos das vantagens*/
 
-.vantagens .itens-container .img-itens img{
-max-width: 100%; 
-}
-
-.vantagens .itens-container .txt-itens p{
-    margin-bottom: 20px;
+    .vantagens .itens-container{
+    flex-direction: column;
     }
 
-.vantagens .itens-container .txt-itens h3{
-font-size: 3em;
-line-height: 50px; /*ira deixar as fontes juntas*/
-margin-bottom: 20px;
-}
+    .vantagens .itens-container .img-itens img{
+    max-width: 100%; /*as imagens irá ficar centralizada na tela*/
+    }
 
-.itens-container .txt-itens h3 span{
-font-weight: 300;
-}
-}
+    .vantagens .itens-container .txt-itens p{
+        margin-bottom: 20px; /*Irá dá um espaçamento entre as imagens*/
+        }
+
+    .vantagens .itens-container .item-1{
+    order: 1; /*Quando eu coloco essa propreidade, deixo o texto abaixo e as imagens acima*/
+    }
+
+    .vantagens .itens-container .item-2{
+        order: 0;
+    }
+
+    /*Responsivo dos botões de contatos*/
+
+    .txt-contato, .icons-contato{
+        display: block;
+        width: 100%;
+    }
+
+    .contato .txt-contato h3{
+        font-size: 2,5em;
+        line-height: 45px;
+    }
+
+    .contato .txt-contato p{
+        margin-bottom: 20px;
+    }
+
+    .contato .icons-contato button{
+    width: 100%;
+    }
+
+    /*Responsivo sessão hosteis*/
+    .hosteis h3{
+        font-size: 2.3em;
+        line-height: 40px;
+    }
+
+    .hosteis p{
+        margin: 20px 0;
+        font-size: 16px;
+    }
+
+    /*Responsivo da sessão como funciona*/
+
+    .txt-funciona, .instrucoes{
+        display: block; /*Deixa o texto acima*/
+        width: 100%; /*Deixa as imagens no quadrado no tamanho normal*/
+    }
+
+    .como-funciona .txt-funciona{
+        /*Essa parte deixa a frase estatica*/
+        position: static;
+    }
+
+    .como-funciona .txt-funciona h3{
+        font-size: 3em;
+        line-height: 50px;
+    }
+
+    .instrucoes .instru-box{
+        flex-direction: column; /*Deixa a imagem em-cima e o texto abaixo*/
+        text-align: center;
+    }
+
+    /*Estilos do rodapé*/
+
+    footer .middle-footer a{
+    margin: 15px 0;
+    display: block;
+    }
+
+    footer .bottom-footer p{ 
+    font-size: 14px;
+    }
+    }
 
 
 
