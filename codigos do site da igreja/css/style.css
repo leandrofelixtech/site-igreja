@@ -28,7 +28,7 @@ header .btn-contato button, .hero-site button, .hosteis button{
 }
 
 header .btn-contato button:hover, .hero-site button:hover, .hosteis button:hover{
-    background-color: #1F8CEB; /*Aqui vai mudar as cores de fundo dos botões*/
+    background-color: #ffffff; /*Aqui vai mudar as cores de fundo dos botões*/
     color: #000;
 }
 
@@ -62,14 +62,14 @@ header .logo img.logo-preta{
 
 header.rolar{
     /*essa parte já é do css que muda assim que rola*/
-    background-color: #1F8CEB; /*aqui muda o botão de cima saiba mais*/
+    background-color: #ffffff; /*aqui muda o botão de cima saiba mais*/
     padding: 20px 0;
     box-shadow: 0 0 8px #00000061;
 }
 
 header.rolar .menu-desktop nav ul li a{
     /*essa parte já é do css que muda assim que rola*/
-    color: #DBC900;
+    color: #000000;
 }
 
 header.rolar .btn-contato button{
@@ -106,7 +106,7 @@ header .menu-desktop nav ul li{
 }
 
 header .menu-desktop nav ul li a{
-    color: #FA0A00;
+    color: #ffffff;
     text-decoration: none;
     display: inline-block;
     transform: .2s;
@@ -217,7 +217,7 @@ section.hero-site{
     background-position: center;
     background-attachment: fixed;
     position: relative;
-    color: #fdfdfd;
+    color: #fff;
 }
 
 .hero-site .interface{
