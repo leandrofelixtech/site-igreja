@@ -34,7 +34,7 @@
     }
 
     .vantagens .itens-container .img-itens img{
-    max-width: 100%; /*as imagens irá ficar centralizada na tela*/
+    width: 100%; /*as imagens irá ficar centralizada na tela*/
     }
 
     .vantagens .itens-container .txt-itens p{
