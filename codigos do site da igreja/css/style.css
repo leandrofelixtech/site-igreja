@@ -208,10 +208,10 @@ body.no-overflow{
     overflow: hidden;
 }
 
-/*Estilo do hero*/
+/*Estilo do hero site*/
 section.hero-site{
     height: 100vh;
-    background-image: url(../imagem/nossa_historia.png);
+    background-image: url(../imagem/ieq\ benfica.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -228,7 +228,7 @@ section.hero-site{
 .hero-site .txt-hero h1{
     font-size: 4em;
     line-height: 70px; /*as letras não fica tão espaçosa*/ 
-    font-weight: 300;/*serve para deixar a fonte suave*/  
+    font-weight: 300;/*serve para deixar a fonte suave*/     
 }
 
 .hero-site .txt-hero h1 span{
